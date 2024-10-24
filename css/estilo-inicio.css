@@ -1,0 +1,123 @@
+/* Contenedor de noticias */
+.noticias {
+    width: 92.5%; /* 93% */
+    margin: auto;
+    height: 640px;
+    background-color: white; /* Puedes descomentar esta línea si necesitas un fondo blanco */
+}
+
+/* Contenido principal de noticias */
+.contenido {
+    margin-left: 4px;
+    margin-top: 10px;
+    padding-left: 10px;
+    width: 77%;
+    height: 600px;
+    background-color: white;
+    float: left;
+}
+
+/* Estilo del título en contenido */
+.contenido p {
+    font-size: 34px;
+}
+
+/* Contenedor de lista de noticias */
+.lista-noticias {
+    width: 80%; /* Ajusta al 100% para usar el ancho del contenedor */
+    height: 500px;
+    margin-left: 30px;
+    display: grid; /* Usar grid para columnas y filas */
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas de igual tamaño */
+    grid-template-rows: repeat(2, auto); /* Dos filas automáticas */
+    gap: 20px; /* Espacio entre noticias */
+}
+
+/* Estilo de cada noticia */
+.noti {
+    width: 100%;
+    height: 200px;
+    padding-top: 10px;
+    border-radius: 14px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #BDC3C7;
+    background-color: white; /* Asegúrate de que el fondo sea blanco o transparente */
+    overflow: hidden; /* Evita desbordamientos */
+}
+
+/* Estilo de imagen en noticia */
+.noti img {
+    margin-top: 20px;
+    height: 121px;
+}
+
+/* Estilo del enlace de noticia */
+.noti a {
+    font-size: 14px;
+    font-family: Century Gothic;
+    color: white;
+    text-decoration: none; /* Elimina subrayado en el enlace */
+}
+
+/* Estilo del contenedor del nombre de la noticia */
+.nom-noticia {
+    width: 100%; /* Ajusta al 100% del contenedor */
+    height: 40px;
+    background: #34495E;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centra el texto horizontal y verticalmente */
+}
+
+/* Aside */
+.aside-apa {
+    margin-top: 10px;
+    width: 20%;
+    height: 600px;
+    padding: 10px;
+    background-color: #F9E79F;
+    float: right;
+}
+
+.apa {
+    width: 248px;
+    background-color: #34495E;
+    padding: 10px;
+}
+
+.apa p {
+    text-align: center;
+    color: white;
+}
+
+.dibujoapa {
+    height: 260px;
+    background-position: center;
+}
+
+.dibujoapa img {
+    width: 248px;
+    height: 300px;
+}
+
+.tutorial-titulo {
+    width: 248px;
+    height: 28px;
+    background-color: #34495E;
+    padding: 10px;
+}
+
+.tutorial-titulo p {
+    text-align: center;
+    color: white;
+}
+
+.tutorial-dibujo img {
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+ 
